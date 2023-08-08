@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05-outros-atributos</title>
+    
+    <style type="text/css">
+        a {
+            font-size: 2em;
+            display: block;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+        <!-- Não vai funcionar (endereço externo) -->
+        <a href="https://www.sys4soft.com/udemy/texto.txt" download>Descarregar texto</a>
+        
+        <a href="recursos/texto.txt" download>Descarregar texto</a>
+
+        <a href="recursos/google_logo.png" download>Descarregar imagem</a>
+
+        <!-- Definir nome do arquivo para download  -->
+        <a href="recursos/google_logo.png" download="logo_do_google">
+            <img src="recursos/google_logo.png">
+        </a>
+    
+</body>
+</html>
+

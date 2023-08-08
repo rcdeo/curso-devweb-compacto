@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula069</title>
+    
+    <style type="text/css">
+        .form-container {
+            width: 60%;
+            margin: auto;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="form-container">
+        <h3>Formulário</h3>
+
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+
+            <p>Gênero</p>
+            <div class="form-group">
+                <label>
+                    <input type="radio" name="campo_genero" value="masculino" checked>
+                    Masculino
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="radio" name="campo_genero" value="feminino">
+                    Feminino
+                </label>
+            </div>
+            
+            <p>Qual o sistema operacional do seu computador?</p>
+            <div class="form-group">
+                <label>
+                    <input type="radio" name="campo_sistema_operacional" value="windows" checked>
+                    Windows
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="radio" name="campo_sistema_operacional" value="mac">
+                    Mac
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="radio" name="campo_sistema_operacional" value="linux">
+                    Linux
+                </label>
+            </div>
+
+            <!-- submit -->
+            <div class="form-group">
+                <input type="submit" value="Enviar">
+            </div>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

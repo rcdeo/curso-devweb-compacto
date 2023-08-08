@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula050</title>
+    
+    <style type="text/css">
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse; 
+        }
+        table {
+            width: 50%;
+        }
+        th, td {
+            padding: 5px;
+        }
+        th {
+            background-color: green;
+            color: white;
+        }
+        caption {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+        <!-- 
+            thead e tbody
+            th - table header - tem o mesmo valor que um td, mas tem importância para o CSS e bibliotecas de JS
+        -->
+
+        <table>
+            <caption>Título da Tabela</caption>
+
+            <thead> <!-- cebeçalho -->
+                <tr>
+                    <th>Coluna 1</th>
+                    <th>Coluna 2</th>
+                    <th>Coluna 3</th>
+                    <th>Coluna 4</th>
+                </tr>
+            </thead>
+
+            <tbody> <!-- conteudo da tabela -->
+                <tr>
+                    <th>Coluna 1 - Linha 1</th>
+                    <td>Coluna 2 - Linha 1</td>
+                    <td>Coluna 3 - Linha 1</td>
+                    <td>Coluna 4 - Linha 1</td>
+                </tr>
+                <tr>
+                    <th>Coluna 1 - Linha 2</th>
+                    <td>Coluna 2 - Linha 2</td>
+                    <td>Coluna 3 - Linha 2</td>
+                    <td>Coluna 4 - Linha 2</td>
+                </tr>
+                <tr>
+                    <!-- juntar as linhas -->
+                    <th rowspan="2">Coluna 1 - Linha 3/4</th>
+                    <!-- juntar as colunas -->
+                    <td colspan="2">Coluna 2/3 - Linha 3</td>
+                    <td>Coluna 4 - Linha 3</td>
+                </tr>
+                <tr>
+                    <td>Coluna 2 - Linha 4</td>
+                    <td>Coluna 3 - Linha 4</td>
+                    <td>Coluna 4 - Linha 4</td>
+                </tr>
+                <!-- Obs.: lembrar de reduzir o numero de linhas/colunas conforme as juncoes -->
+            </tbody>
+
+            <tfoot> <!-- rodapé -->
+                <tr>
+                    <th>Rodapé 1</th>
+                    <td>Rodapé 2</td>
+                    <td>Rodapé 3</td>
+                    <td>Rodapé 4</td>
+                </tr>
+            </tfoot>
+        </table>
+    
+</body>
+</html>

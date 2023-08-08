@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula063</title>
+    
+    <style type="text/css">
+        .form-container {
+            width: 60%;
+            margin: auto;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="form-container">
+            <h3>Formulário</h3>
+
+            <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+                
+                <!-- text -->
+                <div class="form-group">
+                    <input type="text" name="campo_text" minlength="5" maxlength="20" required placeholder="digite o seu nome" value="Fulano de Tal">
+                </div>
+
+                <!-- email -->
+                <div class="form-group">
+                    <!-- MULTIPLE - permite inserir varios enderecos de e-mails separados por virgula -->
+                    <input type="email" name="campo_email" multiple placeholder="email" value="teste1@example.com, teste2@example.com">
+                </div>
+
+                <!-- password -->
+                <div class="form-group">
+                    <input type="password" name="campo_password" placeholder="senha" value="Abc#2023">
+                </div>
+
+                <!-- number -->
+                <div class="form-group">
+                    <input type="number" name="campo_number" min="0" max="99" step="0.01" value="22.25">
+                </div>
+                
+                <!-- url -->
+                <div class="form-group">
+                    <input type="url" name="campo_url" placeholder="url" value="https://www.example.com">
+                </div>
+
+        <hr>
+
+                <!-- CUIDADO - inputs date/time podem terem problemas no tratamento de dados -->
+
+                <!-- date -->
+                <div class="form-group">
+                    <input type="date" name="campo_date" value="2023-03-23">
+                </div>
+
+                <!-- time -->
+                <div class="form-group">
+                    <input type="time" name="campo_time" value="10:13">
+                </div>
+
+                <!-- week -->
+                <div class="form-group">
+                    <input type="week" name="campo_week" value="2023-W12">
+                </div>
+
+                <!-- month -->
+                <div class="form-group">
+                    <input type="month" name="campo_month" value="2023-03">
+                </div>
+
+                <!-- datetime-local -->
+                <div class="form-group">
+                    <input type="datetime-local" name="campo_datetime_local" value="2023-03-23T10:18">
+                </div>
+
+        <hr>
+
+                <!-- color -->
+                <div class="form-group">
+                    <input type="color" name="campo_color" value="#ff0000">
+                </div>
+
+                <!-- submit -->
+                <div class="form-group">
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+
+        </div>
+    
+</body>
+</html>

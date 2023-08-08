@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula073</title>
+    
+    <style type="text/css">
+        .form-container {
+            width: 60%;
+            margin: auto;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="form-container">
+        <h3>Formulários</h3>
+
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+
+            <div class="form-group">
+                <label>Selecione uma opção:</label>
+                <!-- Use CAMPO_SELECAO[] para utilizar o MULTIPLE -->
+                <select name="campo_selecao" required>
+                    <option value=""></option>
+                    <optgroup label="Países">
+                        <option value="PT">Portugal</option>
+                        <option value="BR">Brasil</option>
+                        <option value="AO">Angola</option>
+                        <option value="MZ">Moçambique</option>
+                        <option value="CV">Cabo Verde</option>
+                    </optgroup>
+                    <optgroup label="Outros Países">
+                        <option value="FR">França</option>
+                        <option value="DE">Alemanha</option>
+                        <option value="ES">Espanha</option>
+                    </optgroup>
+
+                    
+                </select>
+            </div>
+
+            <!-- submit -->
+            <div class="form-group">
+                <input type="submit" value="Enviar">
+            </div>
+
+        </form>
+
+    </div>
+        
+    
+</body>
+</html>

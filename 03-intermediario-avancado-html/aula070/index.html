@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula070</title>
+    
+    <style type="text/css">
+        .form-container {
+            width: 60%;
+            margin: auto;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="form-container">
+        <h3>Formulário</h3>
+
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+
+            <div class="form-group">
+                <input type="range" name="campo_intervalo" min="0" max="1000" step="100" value="0" oninput="mostrar(this.value)">
+                <p id="valor_range"></p>
+            </div>
+
+            <!-- submit -->
+            <div class="form-group">
+                <input type="submit" value="Enviar">
+            </div>
+
+        </form>
+
+    </div>
+
+    <script>
+        function mostrar(value) {
+            document.getElementById("valor_range").innerHTML = value;
+        }
+    </script>
+    
+</body>
+</html>
