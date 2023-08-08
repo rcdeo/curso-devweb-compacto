@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores - Parte 2</title>
+    
+    <style type="text/css">
+        body {
+            background-color: #1d1d1d;
+            color: #cdd9e5;
+        }
+
+        .fundo-verde {
+            background-color: green;
+        }
+        .texto-branco {
+            color: white;
+        }
+        .texto-tamanho{
+            font-size: 40px;
+        }
+        li, span {
+            background-color: orange;
+            color: black;
+        }
+        div li.fundo-amarelo {
+            background-color: yellow;
+        }
+        div li#primeiro {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+        <div>Este é o conteúdo de um elemento div.</div>
+        <div>E temos aqui outro elemento div.</div>
+        <span>Este é um texto dentro de um elemento span.</span>
+
+        <div class="fundo-verde texto-branco texto-tamanho">
+            <p>teste</p>
+        </div>
+
+        <div>
+            <p>teste2</p>
+            <ul>
+                <li id="primeiro">Primeiro elemento de uma lista.</li>
+                <li class="fundo-verde">Segundo elemento de uma lista.</li>
+                <li class="fundo-amarelo">Terceiro elemento de uma lista.</li>
+                <li>Quarto elemento de uma lista.</li>
+                <li>Quinto elemento de uma lista.</li>
+            </ul>
+        </div>
+
+        <p>Fim do exercício sobre seletores.</p>
+    
+</body>
+</html>
