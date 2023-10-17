@@ -27,6 +27,9 @@ Aprende as principais tecnologias para desenvolvimento de páginas e aplicaçõe
 - MySQL (SQL)
 - Construção de micro-framework de PHP MVC
 - GitHub
+- NodeJS
+- CodeIgniter 4
+- Laravel 10
 - cPanel, PhpMyAdmin, AWStats, CronJobs
 
 ### :hammer_and_wrench: Ferramentas, Frameworks e/ou Bibliotecas
