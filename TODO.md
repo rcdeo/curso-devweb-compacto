@@ -21,6 +21,8 @@
 - [ ] Seção 18 - xx/31 Aulas
 - [ ] Seção 19 - xx/50 Aulas
 - [ ] Seção 20 - xx/42 Aulas
-- [ ] Seção 21 - xx/43 Aulas
+- [ ] Seção 21 - xx/04 Aulas[^2]
+- [ ] Seção 22 - xx/43 Aulas
 
 [^1]: As aulas encontram-se disponíveis no YouTube.
+[^2]: As aulas são agrupadas em vídeo de quase 2h de duração cada um.
