@@ -1,5 +1,15 @@
 # CHANGELOG
-> Atualizado em: 01.08.2023
+> Atualizado em: 17.10.2023
+
+### 01.10.2023
+
+- ovo módulo de **Laravel 10 Essencial**.
+
+### 03.09.2023
+
+- Atualização do vídeo 2 sobre os módulos disponíveis no curso até ao momento.
+
+- Ênfase em particular para os módulos de exercícios e o seu método de funcionamento.
 
 ### 01.08.2023
 
