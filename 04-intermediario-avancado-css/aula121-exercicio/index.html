@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula121-exercicio</title>
+    
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .wrapper {
+            height: 100vh;
+            background-color: white;
+        }
+        .container {
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(2, 25%);
+            grid-template-rows: 15% 20% auto 10%;
+            gap: 10px;
+            color: white;
+        }
+        header {
+            grid-column: 1 / 5;
+            display: grid;
+            background-color: #40003f;
+            padding: 20px;
+            > div {
+                grid-row: 1;
+                &:nth-child(2) {
+                    display: grid;
+                    justify-self: end;
+                    background-color: #bf00fe;
+                    box-sizing: border-box;
+                    width: 150px;
+                    padding: 20px;
+                }
+            }
+        }
+        section {
+            grid-column: 1 / 4;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            > div {
+                padding: 20px;
+                &:nth-child(1) {
+                    background-color: #47008c;
+                }
+                &:nth-child(2) {
+                    background-color: #6d00d8;
+                }
+                &:nth-child(3) {
+                    background-color: #4d4cff;
+                }
+            }
+        }
+        aside {
+            grid-column: 4 / 5;
+            grid-row: 2 / 4;
+            background-color: #4d4cff;
+            padding: 20px;
+        }
+        article {
+            grid-column: 1 / 4;
+            /* grid-row: 3 / 4; */
+            background-color: #0059b3;
+            padding: 20px;
+        }
+        footer {
+            grid-column: 1 / 5;
+            /* grid-row: 4 / 5; */
+            background-color: #40003f;
+            padding: 20px;
+        }
+
+        /**
+         *  NOTA
+         *  
+         *  No CSS Grid, a propriedade grid-columns define a linha de início e a linha de fim. Temos na
+         *  realidade 4 colunas, mas na verdade também temos 5 linhas:
+         *  
+         *  | col1 | col2 | col3 | col4 |
+         *  
+         *  Repare no exquema simples que coloquei acima. Temos 4 colunas, mas temos 5 linhas verticais
+         *  que definem os espaços das 4 colunas. Quando coloco 1/5 estou a dizer que:
+         *  grid-columns [linha inicial] / [linha final]
+         *  
+         *  Logo:
+         *  grid-columns 1 (linha inicial) / 5 (linha final)
+         */
+    </style>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container">
+            <header>
+                <div>header</div>
+                <div>img</div>
+            </header>
+            <section>
+                <div>text</div>
+                <div>text</div>
+                <div>text</div>
+            </section>
+            <aside>aside</aside>
+            <article>content</article>
+            <footer>footer</footer>
+        </div>
+    </div>
+    
+</body>
+</html>

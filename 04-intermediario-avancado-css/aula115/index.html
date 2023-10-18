@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula115</title>
+    
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-shadow: 0 0 2px black;
+        }
+        
+        /**
+         *  start: os itens ocupam o espaço do conteúdo
+         *  stretch: os itens são aumentados para preencher o contêiner
+         *  place-items: align-items + justify-items
+         */
+        section {
+            display: grid;
+            grid-template: 50% 50% / 50% 50%;
+            height: 100vh;
+            /* justify-items: stretch; */ /* para visualizar, comente na div width */
+            /* align-items: stretch; */ /* para visualizar, comente na div height */
+            place-items: center start;
+        }
+        div {
+            font-size: 3em;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            background-color: yellow;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <section>
+        <div>AAAA</div>
+        <div>BB</div>
+        <div>CCC</div>
+        <div>D</div>
+    </section>
+    
+</body>
+</html>

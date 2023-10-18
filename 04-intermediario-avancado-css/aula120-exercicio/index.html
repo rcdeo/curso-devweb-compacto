@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula120-exercicio</title>
+    
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .wrapper {
+            height: 100vh;
+            background-color: white;
+        }
+        .container {
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 25% auto;
+            grid-template-rows: 20% auto 10%;
+            grid-template-areas: 
+                "header header"
+                "aside article"
+                "footer footer"
+            ;
+            gap: 10px;
+        }
+
+        header {
+            grid-area: header;
+            background-color: #00203f;
+            color: white;
+            padding: 20px;
+        }
+        aside {
+            grid-area: aside;
+            background-color: #434250;
+            color: white;
+            padding: 20px;
+        }
+        article {
+            grid-area: article;
+            background-color: #d5d5dd;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 2fr 1fr;
+            grid-template-areas: 
+                "article article article"
+                "image1 image2 image3"
+            ;
+            gap: 10px;
+            > div {
+                background-color: #999aac;
+                padding: 20px;
+                margin-bottom: 10px;
+                &:nth-child(1) {
+                    background-color: transparent;
+                    grid-area: article;
+                }
+                &:nth-child(2) {
+                    /* grid-area: image1; */
+                    margin-left: 10px;
+                }
+                /* &:nth-child(3) {
+                    grid-area: image2;
+                } */
+                &:nth-child(4) {
+                    /* grid-area: image3; */
+                    margin-right: 10px;
+                }
+            }
+        }
+        footer {
+            grid-area: footer;
+            background-color: #00203f;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container">
+            <header>header</header>
+            <aside>aside</aside>
+            <article>
+                <div>article</div>
+                <div>image</div>
+                <div>image</div>
+                <div>image</div>
+            </article>
+            <footer>footer</footer>
+        </div>
+    </div>
+    
+</body>
+</html>
