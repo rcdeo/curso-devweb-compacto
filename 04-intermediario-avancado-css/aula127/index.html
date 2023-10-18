@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula127</title>
+    
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        article {
+            padding: 40px;
+        }
+
+        .visivel-mobile {
+            display: block;
+            color: gray;
+        }
+        .visivel-tablet, .visivel-desktop {
+            display: none;
+        }
+
+        @media (min-width: 576px) {
+            .visivel-tablet {
+                display: block;
+                color: red;
+            }
+            .visivel-mobile,.visivel-desktop {
+                display: none;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .visivel-desktop {
+                display: block;
+                color: blue;
+            }
+            .visivel-mobile,.visivel-tablet {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h3>Conteúdo diferente para cada dispositivo</h3>
+    </header>
+
+    <section>
+        <article class="visivel-mobile">
+            <h1>Apenas em mobile</h1>
+        </article>
+        <article class="visivel-tablet">
+            <h1>Apenas em tablet</h1>
+        </article>
+        <article class="visivel-desktop">
+            <h1>Apenas em desktop</h1>
+        </article>
+    </section>
+    
+</body>
+</html>
