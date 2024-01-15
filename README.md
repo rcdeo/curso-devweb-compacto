@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://img-b.udemycdn.com/course/240x135/5107432_b867_3.jpg" width="240" height="135" alt="Desenvolvimento Web Compacto e Completo" />
+    <img src="https://img-b.udemycdn.com/course/240x135/5107432_b867_3.jpg" width="240" height="135" alt="Desenvolvimento Web Compacto e Completo" />
 </p>
 
 <h3 align="center">
-  Desenvolvimento Web Compacto e Completo :frog:
+    Desenvolvimento Web Compacto e Completo :elephant: :sparkler:
 </h3>
 
 <br>
@@ -21,24 +21,23 @@ Aprende as principais tecnologias para desenvolvimento de páginas e aplicaçõe
 - HTML5
 - CSS3 (FlexBox, CSS Grid)
 - JavaScript (DOM, AJAX)
-- Bootstrap 5
 - PHP8 (OOP, PDO, CLI)
-- REST APIs ( HTTP Basic Auth, API Key, JWT)
-- MySQL (SQL)
+- REST APIs (HTTP Basic Auth, API Key, JWT)
+- SQL
 - Construção de micro-framework de PHP MVC
-- GitHub
-- NodeJS
-- CodeIgniter 4
-- Laravel 10
-- cPanel, PhpMyAdmin, AWStats, CronJobs
+- Hospedagem Web (cPanel, phpMyAdmin, AWStats, CronJobs)
 
 ### :hammer_and_wrench: Ferramentas, Frameworks e/ou Bibliotecas
 
 - Visual Studio Code
-- Git
-- Xampp, Wampserver, Mamp, Laragon (Docker - opção utilizada por este aluno)
-- HeidySQL, MySQL Workbench
-- Postman, Thunder Client
+- Git e GitHub
+- Bootstrap 5
+- NodeJS
+- CodeIgniter 4
+- Laravel 10
+- Docker, Xampp, Laragon, Mamp e/ou Wampserver
+- MySQL, HeidySQL e phpMyAdmin
+- Postman, Thunder Client e/ou REST Client
 
 
 
