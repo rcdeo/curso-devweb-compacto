@@ -1,10 +1,10 @@
 # TODO
-> Atualizado em: 04.08.2023
+> Atualizado em: 08.11.2023
 
 - [x] Seção 01 - 04/04 Aulas
 - [x] Seção 02 - 38/38 Aulas
 - [x] Seção 03 - 38/38 Aulas
-- [ ] Seção 04 - 33/51 Aulas
+- [x] Seção 04 - 51/51 Aulas
 - [ ] Seção 05 - xx/47 Aulas
 - [ ] Seção 06 - xx/30 Aulas[^1]
 - [ ] Seção 07 - xx/59 Aulas

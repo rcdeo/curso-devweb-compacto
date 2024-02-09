@@ -1,9 +1,25 @@
 # CHANGELOG
-> Atualizado em: 17.10.2023
+> Atualizado em: 07.02.2024
+
+### 03.02.2024
+
+- Pequenos ajustamentos na grade.
+
+### 01.01.2024
+
+- Pequenos ajustamentos na grade. Ajustamento para inserção de mais conteúdo no curso.
+
+### 02.12.2023
+
+- Ajustamentos em vários vídeos. Mais conteúdo nas próximas semanas.
+
+### 04.11.2023
+
+- Vários ajustamentos na estrutura do curso e dos módulos.
 
 ### 01.10.2023
 
-- ovo módulo de **Laravel 10 Essencial**.
+- Novo módulo de **Laravel 10 Essencial**.
 
 ### 03.09.2023
 
