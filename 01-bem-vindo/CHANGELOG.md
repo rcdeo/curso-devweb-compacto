@@ -1,6 +1,10 @@
 # CHANGELOG
 
-> Atualizado em: 15.07.2024
+> Atualizado em: 03.10.2024
+
+### 01.10.2024
+
+-   Adicionado módulo TailwindCSS Básico.
 
 ### 02.04.2024
 
