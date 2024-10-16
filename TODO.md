@@ -8,7 +8,7 @@
 -   [x] Seção 04 - 51/51 Aulas
 -   [x] Seção 05 - 10/47 Aulas
 -   [x] Seção 06 - 30/30 Aulas[^1]
--   [ ] Seção 07 - 32/59 Aulas
+-   [x] Seção 07 - 59/59 Aulas
 -   [ ] Seção 08 - 09/73 Aulas
 -   [ ] Seção 09 - xx/27 Aulas
 -   [ ] Seção 10 - xx/17 Aulas
